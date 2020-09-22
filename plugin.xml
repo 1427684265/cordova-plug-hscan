@@ -6,7 +6,7 @@
     <name>HScan</name>
    
     <js-module name="cordova-plug-hscan" src="www/cordova-plug-hscan.js">
-        <clobbers target="cordova.plugins.cordova-plug-hscan" />
+        <clobbers target="HdheScanPlug" />
     </js-module>
 
     <engines>
