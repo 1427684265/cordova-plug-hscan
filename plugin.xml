@@ -15,7 +15,7 @@
 
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
-            <feature name="HScan">
+            <feature name="cordova-plug-hscan">
                 <param name="android-package" value="com.hdher.plug.scan.HScanPlugin" />
             </feature>
         </config-file>
