@@ -88,12 +88,12 @@ Scan.prototype.start = function (option) {
     this.onWriteReadFail = option.onWriteReadFail;
     //
     this.onReadSettingSuccess = option.onReadSettingSuccess;
-    exec(scan._status, scan._error, 'HScan', 'start', [option]);
+    exec(scan._status, scan._error, 'HdheScanPlug', 'start', [option]);
 }
 
 Scan.prototype.stop = function () {
     this.onReadSuccess = null;
-    exec(null, null, 'HScan', 'stop', []);
+    exec(null, null, 'HdheScanPlug', 'stop', []);
 }
 
 Scan.prototype._status = function (info) {
@@ -124,5 +124,5 @@ Scan.prototype._status = function (info) {
     }
 };
 var scan = new Scan();
-exec(null, null, 'HScan', 'register', []);
+exec(null, null, 'HdheScanPlug', 'register', []);
 module.exports = scan;
