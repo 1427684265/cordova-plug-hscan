@@ -1,6 +1,6 @@
 {
   "name": "com.hdher.plug.scan",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RFID SCAN",
   "cordova": {
     "id": "com.hdher.plug.scan",
